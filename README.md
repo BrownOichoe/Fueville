@@ -1,2 +1,2 @@
 # Fueville
-Website for fiction city of Fueville
+Website for fictional city of Fueville
