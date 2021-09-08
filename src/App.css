@@ -24,6 +24,98 @@
   color: white;
 }
 
+.Nav_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+
+.banner  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 10%;
+  background-color: rgb(207, 227, 241);
+  border-radius: 2px
+}
+
+.banner-left {
+  padding: 20px;
+}
+
+.banner-right {
+  display: block;
+  justify-content: space-between;
+  padding: 30px 2%;
+}
+
+
+.banner-right div {
+  padding: 3px;
+}
+.banner li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px;
+  
+}
+
+.banner li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.banner li a:hover{
+  color: rgb(30, 93, 186)
+}
+
+.banner .vl {
+  color: rgb(128, 186, 230);;
+}
+.logo {
+  cursor: pointer;
+}
+
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+
+}
+
+.navlinks a:hover { 
+  text-decoration: none; 
+  color: rgb(30, 93, 186);
+}
+
+.navlinks li a:hover, .navlinks a:active {
+  text-decoration: none;
+  color: rgb(30, 93, 186);
+  
+}
+
+.navlinks li a:focus { 
+  text-decoration: none; 
+  color: rgb(30, 93, 186);
+}
+
+.navlinks li a:visited {
+  text-decoration: none;
+  color: #282c34;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }

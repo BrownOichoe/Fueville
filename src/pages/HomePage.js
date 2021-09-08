@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import BannerPage from "./BannerPage";
+import NavigationBar from "./NavigationBar";
 
 
 function HomePage() {
@@ -12,12 +14,16 @@ function HomePage() {
 
     return (
       <div>
-      <h1>
-        Welcome to Fueville
-      </h1>  
-      <p>
-        The current time is {currentTime}.
-      </p>
+        <NavigationBar />
+        <BannerPage  />
+        <div>
+          <h1>
+             Welcome to Fueville
+          </h1>  
+          <p>
+             The current time is {currentTime}.
+          </p>
+        </div>
     </div>
     );
 }
