@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import BannerPage from "./BannerPage";
+
+import LandingPage from "./LandingPage";
 import NavigationBar from "./NavigationBar";
 
 
@@ -15,7 +16,8 @@ function HomePage() {
     return (
       <div>
         <NavigationBar />
-        <BannerPage  />
+        
+        <LandingPage />
         <div>
           <h1>
              Welcome to Fueville
