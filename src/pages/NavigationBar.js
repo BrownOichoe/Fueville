@@ -5,10 +5,9 @@ import React from "react";
 function NavigationBar() {
     return (
         <header className="Nav_header">
-            <img className="logo" src="images/logo.svg"></img>
+            <h3>City of Fueville</h3>
             <nav className="navlinks">
-                 <li><a href="#">Data</a></li> { "|" }
-                 <li><a href="#">About</a></li>
+                 <li><a href="#about-footer">About</a></li>
             </nav>
         </header>
     );

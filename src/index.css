@@ -17,5 +17,12 @@ code {
 }
 
 body {
+  
   padding: 0;
 }
+
+@media only screen and (max-width: 980px) {  
+  html, body {
+    display: none;
+   }
+  }
